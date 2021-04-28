@@ -17,44 +17,46 @@ class ViewController: UIViewController {
         infoDisplayLable.layer.cornerRadius = 10
         infoDisplayLable.text = ""
         
-        print("Water: \(waterTank) | Milk: \(milkTank) | Coffee: \(coffeeTank) | Garbage: \(garbageTank)")
+        print("Water: \(machine.waterTank) | Milk: \(machine.milkTank) | Coffee: \(machine.coffeeTank) | Garbage: \(machine.garbageTank)")
     }
+    
+    var machine = CoffeeMachine()
 
     //Drink buttons
     
     @IBAction func prepareEspressoButton(_ sender: UIButton) {
-        prepareDrink(drink: .espresso)
-        infoDisplayLable.text = errorText
+        machine.prepareDrink(drink: .espresso)
+        infoDisplayLable.text = machine.serviceMessage
     }
     @IBAction func prepareAmericanoButton(_ sender: UIButton) {
-        prepareDrink(drink: .americano)
-        infoDisplayLable.text = errorText
+        machine.prepareDrink(drink: .americano)
+        infoDisplayLable.text = machine.serviceMessage
     }
     @IBAction func prepareCappuchinoButton(_ sender: UIButton) {
-        prepareDrink(drink: .cappuchino)
-        infoDisplayLable.text = errorText
+        machine.prepareDrink(drink: .cappuchino)
+        infoDisplayLable.text = machine.serviceMessage
     }
     @IBAction func prepareTeaButton(_ sender: UIButton) {
-        prepareDrink(drink: .tea)
-        infoDisplayLable.text = errorText
+        machine.prepareDrink(drink: .tea)
+        infoDisplayLable.text = machine.serviceMessage
     }
     
     // Service buttons
     @IBAction func addWaterButton(_ sender: UIButton) {
-        addWater()
-        infoDisplayLable.text = serviceMessage
+        machine.addWater()
+        infoDisplayLable.text = machine.serviceMessage
     }
     @IBAction func addMilkButton(_ sender: UIButton) {
-        addMilk()
-        infoDisplayLable.text = serviceMessage
+        machine.addMilk()
+        infoDisplayLable.text = machine.serviceMessage
     }
     @IBAction func addCoffeeButton(_ sender: UIButton) {
-        addCoffee()
-        infoDisplayLable.text = serviceMessage
+        machine.addCoffee()
+        infoDisplayLable.text = machine.serviceMessage
     }
     @IBAction func clearTrayButton(_ sender: UIButton) {
-        clearGarbage()
-        infoDisplayLable.text = serviceMessage
+        machine.clearGarbage()
+        infoDisplayLable.text = machine.serviceMessage
     }
 }
 

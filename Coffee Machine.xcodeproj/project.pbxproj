@@ -13,7 +13,6 @@
 		422A9B9B2629EF4100CDDF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422A9B992629EF4100CDDF98 /* Main.storyboard */; };
 		422A9B9D2629EF4200CDDF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422A9B9C2629EF4200CDDF98 /* Assets.xcassets */; };
 		422A9BA02629EF4200CDDF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422A9B9E2629EF4200CDDF98 /* LaunchScreen.storyboard */; };
-		42DA3D032632B17E00374EB5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA3D022632B17E00374EB5 /* Service.swift */; };
 		42DA3D0B2632BF5300374EB5 /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA3D0A2632BF5300374EB5 /* CoffeeMachine.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		422A9B9C2629EF4200CDDF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422A9B9F2629EF4200CDDF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		422A9BA12629EF4200CDDF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42DA3D022632B17E00374EB5 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		42DA3D0A2632BF5300374EB5 /* CoffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +63,6 @@
 				422A9B972629EF4100CDDF98 /* ViewController.swift */,
 				422A9B992629EF4100CDDF98 /* Main.storyboard */,
 				42DA3D0A2632BF5300374EB5 /* CoffeeMachine.swift */,
-				42DA3D022632B17E00374EB5 /* Service.swift */,
 				422A9B9C2629EF4200CDDF98 /* Assets.xcassets */,
 				422A9B9E2629EF4200CDDF98 /* LaunchScreen.storyboard */,
 				422A9BA12629EF4200CDDF98 /* Info.plist */,
@@ -144,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				422A9B982629EF4100CDDF98 /* ViewController.swift in Sources */,
-				42DA3D032632B17E00374EB5 /* Service.swift in Sources */,
 				422A9B942629EF4100CDDF98 /* AppDelegate.swift in Sources */,
 				422A9B962629EF4100CDDF98 /* SceneDelegate.swift in Sources */,
 				42DA3D0B2632BF5300374EB5 /* CoffeeMachine.swift in Sources */,
